@@ -13,7 +13,6 @@ This framework is proposed to defend against model architecture extraction by ob
 * nasbench library:    
 ```
 git clone https://github.com/google-research/nasbench
-
 ```
 
 ### Download
@@ -29,7 +28,6 @@ python main.py
 ```
 ```
 python evalute.py
-
 ```
 
 
