@@ -8,9 +8,9 @@ This framework is proposed to defend against model architecture extraction by ob
 ## Getting Started
 
 ### Requirement
-*     Python 3.7
-*     torch 1.10
-*     nasbench library:    
+* Python 3.7
+* torch 1.10
+* nasbench library:    
 ```
 git clone https://github.com/google-research/nasbench
 
@@ -18,11 +18,11 @@ git clone https://github.com/google-research/nasbench
 
 ### Download
 
-*     Dataset (provided by nasbench): https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord
+* Dataset (provided by nasbench): https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord
 
 ### Executing program
 
-*    change the victim spec in main.py/ evaluate.py and run
+* Change the victim spec in main.py/ evaluate.py and run
 
 ```
 python main.py 
