@@ -24,7 +24,7 @@ def run_evolution_search(victim_spec, cycle=30,
     while i < population_size:
         # ensure each individual is unique
         while True:
-            spec = mutate_spec(victim_spec, mutation_rate)
+            spec = mutate_spec(victim_spec, victim_spec, mutation_rate)
             flag = check_same(spec, population)
             if flag == 1:
                 break
@@ -57,7 +57,7 @@ def run_evolution_search(victim_spec, cycle=30,
         best_spec = sorted(sample, key=lambda i: i[0])[-1][1]
         # print(sorted(sample, key=lambda i:i[0]))
         # print(best_spec.original_matrix)
-        new_spec = mutate_spec(best_spec, mutation_rate)
+        new_spec = mutate_spec(victim_spec, best_spec, mutation_rate)
         print('The %d-th new spec generated'% i)
 
         # data = nasbench.query(new_spec)
