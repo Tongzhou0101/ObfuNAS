@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 from mutation import *
-from utilis import *
+from utils import *
 from setting import *
 import pickle
 
