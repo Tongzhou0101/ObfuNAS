@@ -1,5 +1,5 @@
 import pickle
-from utilis import *
+from utils import *
 from network import *
 from setting import *
 from mutation import *
