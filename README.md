@@ -18,6 +18,7 @@ git clone https://github.com/google-research/nasbench
 ### Download
 
 * Dataset (provided by nasbench): https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord
+* More details are in the nasbench repo: https://github.com/google-research/nasbench/tree/master
 
 ### Executing program
 
